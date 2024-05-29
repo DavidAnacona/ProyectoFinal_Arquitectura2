@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="412dp"
+        android:layout_height="136dp"
+        android:background="#FFFFFF"
+        android:contentDescription="@string/description_camion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/login" />
+
+    <EditText
+        android:id="@+id/tf_documento_register2"
+        android:layout_width="321dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Ingresa tu número de documento"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/documentType2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dateInput2"
+        android:layout_width="322dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/spinner_background"
+        android:cursorVisible="false"
+        android:focusable="false"
+        android:hint="Fecha de nacimiento"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tf_nombre_register2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tf_nombre_register2"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Ingresa tu correo"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tf_documento_register2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tf_nombre_register5"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Ingresa tu número de telefono"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateInput2"
+        tools:ignore="MissingConstraints" />
+
+    <Spinner
+        android:id="@+id/documentType2"
+        android:layout_width="319dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/spinner_background"
+        android:entries="@array/document_types"
+        android:padding="10dp"
+        android:popupBackground="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tf_apellido_register2"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tf_apellido_register2"
+        android:layout_width="320dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Ingresa tus apellidos"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tf_nombre_register3"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/tf_nombre_register3"
+        android:layout_width="320dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Ingresa tus nombres"
+        android:inputType="text"
+        android:padding="10dp"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_register3"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@color/button"
+        android:radius="53dp"
+        android:text="@string/button_register"
+        android:textSize="24sp"
+        app:circularflow_radiusInDP="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tf_nombre_register5" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/titulo_register_cliente"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:text="@string/derechos"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

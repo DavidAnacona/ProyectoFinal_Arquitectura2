@@ -1,0 +1,40 @@
+<resources>
+    //String login
+    <string name="app_name">STM_arquitectura2</string>
+    <string name="Bienvenida">Bienvenido a STM</string>
+    <string name="description_camion">Imagen de un camión de mudanza con las letras STM</string>
+    <string name="email_login">Ingresa tu correo</string>
+    <string name="pass_login">Ingresa tu contraseña</string>
+    <string name="register">Registrate y conviértete en socio de STM</string>
+    <string name="register_cliente">Registrate y realiza tus mudanzas a cualquier hora del dia</string>
+    <string name="derechos">@ 2024 STM. Todos los derechos reservados</string>
+
+    //String register
+    <string name="titulo">Conviértete en socio de STM</string>
+    <string name="nombres">Ingresa tus nombres</string>
+    <string name="apellidos">Ingresa tus apellidos</string>
+    <string name="tipo_identificacion">Selecciona tu tipo de identificación</string>
+    <string name="identificacion">Ingresa tu numero de identificación</string>
+    <string name="sexo">Selecciona tu sexo</string>
+    <string name="correo">Ingresa tu correo electrónico</string>
+    <string name="pass">Ingresa tu contraseña</string>
+    <string name="felicitaciones">!FELICIDADES!</string>
+    <string name="felicitaciones1">Haz finalizado el proceso de registro para ser socio de STM.</string>
+    <string name="felicitaciones2">Tus documentos estan en revisión y te notificaremos a tu correo.</string>
+    <string name="titulo_register_cliente">Registrate y mudate cuando quieras sin pensarlo</string>
+    <string name="felicitaciones_cliente">Haz finalizado el proceso de registro para ser cliente de STM.</string>
+
+    //String button
+    <string name="button_login">Iniciar sesión</string>
+    <string name="button_paso1">Ir al paso 2</string>
+    <string name="button_paso2">Terminar proceso</string>
+    <string name="button_register">Registrarse</string>
+    <string name="button_register2">Regresar al login</string>
+
+    //Drag file
+    <string name="drag_cedula">Carga tu cedula aqui:</string>
+    <string name="drag_licencia">Carga tu licencia de conducir aqui:</string>
+    <string name="drag_propiedad">Carga la tarjeta de propiedad aqui:</string>
+    <string name="drag_document">Carga tu documento</string>
+
+</resources>
